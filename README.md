@@ -1,24 +1,16 @@
 # README
+ToDo application tracks your work with elegant UI
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Things are featured in the app:
 
-Things you may want to cover:
+* Rail 5 and Ruby 2.4.0
 
-* Ruby version
+* Ajax
 
-* System dependencies
+* Modal and simple form
 
-* Configuration
+* Postgresql DB
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* Devise for authentication
 
 * ...
