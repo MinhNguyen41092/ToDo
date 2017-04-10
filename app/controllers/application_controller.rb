@@ -1,3 +1,13 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery with: :exception
+  protect_from_forgery with: :null_session
+  before_action :authenticate_user!
+  
+  layout :layout_by_controller
+  
+  protected
+  
+  def layout_by_controller
+    devise_controller? ? 'devise' : 'application'
+  end
+  
 end

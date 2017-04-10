@@ -6,7 +6,7 @@ class TasksController < ApplicationController
   
   def create
     @task = Task.new(task_params)
-    save_tasks
+    save_task
   end
   
   def edit
