@@ -11,6 +11,6 @@ Things are featured in the app:
 
 * Postgresql DB
 
-* Devise for authentication
+* Devise, cancan for authentication
 
 * ...
